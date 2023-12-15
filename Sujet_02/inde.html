@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercice Recuperation de Donnée</title>
+  </head>
+  <body>
+    <h1>
+      Photos Recupérer depuis l'Api https://jsonplaceholder.typicode.com/photos
+    </h1>
+    <p>Saisiser le nombre de photo que vous voulez afficher</p>
+    <div class="form">
+      <label for="inputElement">Nombre de photo(s): </label>
+      <input type="text" id="inputElement" class="post" />
+      <input
+        type="submit"
+        value="Calculer"
+        class="submitPost"
+        id="submitButton"
+      />
+      <input type="submit" value="Afficher 5000 photo" id="showAllButton" />
+      <div class="form1">
+        <p class="message" id="messageElement"></p>
+      </div>
+    </div>
+
+    <script src="exo2.js"></script>
+  </body>
+</html>

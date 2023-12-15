@@ -1,0 +1,18 @@
+{
+  "name": "Challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./sujet_01/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "*",
+    "node": "^21.2.0",
+    "nodemon": "^3.0.2"
+  }
+}

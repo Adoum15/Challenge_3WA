@@ -1,0 +1,12 @@
+# Pour executer l'exercice du sujet 1 utiliser la commande
+
+```bash
+npm start
+```
+
+Il vaux mieux utilier npm start
+parce que avec la commande node index.js
+il y a un probleme de chemin d'acces
+
+l'affichage de l'exercice 2 se fera via le navigateur
+et celui de l'exercice 1 se fera dans le terminal avec la commande npm start
